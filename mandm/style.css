@@ -1,0 +1,192 @@
+:root{
+    --main-color: #1a1648;
+    --black: #141414;
+    --white: #fff;
+    --light-black:rgb(54, 54, 54);
+    --light-white:#fff9;
+    --dark-bg: rgba(0,0,0,.7);
+    --light-bg: #eee;
+    --border:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: var(--white);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+
+body{
+    font-family: serif;
+}
+
+.welcome-page{
+    background-image: url(images/maetro&mentee-bg.png);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome{
+    padding: 5.5rem 0rem;
+}
+
+.welcome .welcome-title{
+    padding: 2rem 0rem;
+    font-size: 3.7rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+
+.welcome .welcome-body{
+    padding: 1.4rem 0rem;
+    font-size: 1.7rem;
+    color: var(--light-white);
+}
+
+.welcome .welcome-body span{
+    font-weight: bold;
+    font-style: italic;
+    color: var(--white);
+}
+
+.welcome .welcome-content{
+    padding: 0rem 0.5rem;
+    font-size: 1.2rem;
+    color: var(--light-white);
+}
+
+.links-box{
+    background: var(--light-bg);
+    opacity: 0.75;
+    color: var(--black);
+    margin: 5rem 0rem;
+}
+
+.links-box .link-content{
+    margin: 1.5rem 0rem;
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+.links-box .link-content a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+
+.welcome-sign .welcome{
+    padding: 1.3rem 0rem;
+}
+
+.welcome-sign .welcome h1{
+    font-size: 4.7rem;
+}
+
+.content-form{
+    padding: 1.05rem 0rem;
+}
+
+.content-form .nav-tabs{
+    color: var(--black);
+    padding: 0.7rem 0rem;
+}
+
+.content-form .nav-tabs .nav-link.active{
+    background-color: var(--main-color);
+    color: var(--white);
+}
+.content-form .nav-tabs .nav-link{
+    color: var(--black);
+}
+
+.content-form .nav-tabs .nav.link a{
+    text-decoration: none;
+}
+
+.content-form .tab-content h2{
+    padding: 7px 0px;
+}
+
+.content-form .form-group{
+    padding: 2px;
+}
+
+nav{
+    background-color: var(--light-bg);
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.jumbotron{
+    padding: 2rem;
+    margin-top: 3.4rem;
+    background-color: var(--main-color);
+    color: var(--white);
+}
+
+.contact{
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    background-color: #201c4ed9;
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+@media screen and (min-width: 601px) {   
+    .welcome{
+        width: 55vw;
+    }
+    .links-box{
+        width: 27vw;
+    }
+}
+
+
+.box-container{
+    padding: 2rem;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.box-container .box{
+    padding: 2.5rem;
+    background-color: var(--light-bg);
+    color: var(--black);
+}
+
+.title-bar{
+    margin-top: 3rem;
+    padding: 5rem 3rem;
+    background: var(--main-color);
+    color: var(--white);
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.link-details a{
+    text-decoration: none;
+    color: var(--light-white);
+}
+
+.link-details a:hover{
+    text-decoration: none;
+    color: var(--light-white);
+}
