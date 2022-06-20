@@ -12,7 +12,7 @@ In this website, a mentee can sign up/ log in and look for teachers in the inter
 
 Here comes the screenshots of the website:
 
-Disclaimer: The info given in the screenshots are not original
+Disclaimer: The info given in the screenshots are just samples, not to be misled
 
 Landing Page:
 <br>
