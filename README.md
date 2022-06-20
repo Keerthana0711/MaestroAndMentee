@@ -12,6 +12,8 @@ In this website, a mentee can sign up/ log in and look for teachers in the inter
 
 Here comes the screenshots of the website:
 
+Disclaimer: The info given in the screenshots are not original
+
 Landing Page:
 <br>
 <img src="./ss/1.png" alt="landing_page" width="500">
